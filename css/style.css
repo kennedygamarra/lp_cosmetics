@@ -12,27 +12,31 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 #catalogo {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+/* #catalogo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
+  justify-content: space-evenly;
+} */
 
 .producto {
   border-radius: 5px;
-  margin: 2px;
-  padding: 0.5rem;
-  width: 10rem;
+  width: 100%;
   text-align: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .producto p {
   color: #a86872;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 

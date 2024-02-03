@@ -8,17 +8,17 @@ function mostrarProductos() {
       const elementoProducto = document.createElement('div');
       elementoProducto.className = 'producto';
       elementoProducto.innerHTML = `
-          <p>${producto.nombre}</p>
-          <img src="${producto.imagen}" alt="${producto.nombre}" width="150">
-          <span>Precio: ${precio}</span>
+        <img src="${producto.imagen}" alt="${producto.nombre}" width="150">
+        <p>${producto.nombre}</p>
+        <span>Precio: ${precio}</span>
       `;
       catalogo.appendChild(elementoProducto);
   });
 }
 
 function aumentarPrecio(precio) {
-  // Aumentar el precio en un 20%
-  const nuevoPrecio = precio * 1.2;
+  // Aumentar el precio en un 60%
+  const nuevoPrecio = precio * 1.6;
 
   // Redondear a la cifra más cercana en cienes
   const precioRedondeado = Math.round(nuevoPrecio / 100) * 100;
