@@ -1,0 +1,14 @@
+TODO:
+
+*MVP*
+[] Barra de busqueda
+[] Mejorar responsive 
+[] Footer con derechos de autor
+[] Botones de Redes sociales (Instagram, Whatsapp...)
+[] Vista detalle de producto
+
+*POSIBLES MEJORAS*
+[] Agregar mas filtros
+[] Seccion "tambien podria interesarte..."
+[] Carrito (sin pasarela de pago, que permita generar un pdf o algo similar para enviarlos al wpp o al instagram de venta)
+[] Cuenta admin 
